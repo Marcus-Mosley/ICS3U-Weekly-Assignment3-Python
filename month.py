@@ -33,11 +33,11 @@ def main():
             if year_int % 4 == 0:
                 if year_int % 100 == 0:
                     if year_int % 400 == 0:
-                        print("February has 29 days during a leap year")
+                        print("February has 29 days during a leap year!")
                     else:
                         print("February has 28 days during a common year!")
                 else:
-                    print("February has 29 days during a leap year")
+                    print("February has 29 days during a leap year!")
             else:
                 print("February has 28 days during a common year!")
         elif month_int == 3:
