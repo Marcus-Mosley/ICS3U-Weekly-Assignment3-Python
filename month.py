@@ -12,10 +12,10 @@ def main():
 
     # Input
     year_str = 0
-    month_str = int(input("Enter a month in the form of a number (1-12): "))
+    month_str = input("Enter a month in the form of a number (1-12): ")
     print("")
     if month_str == 2:
-        year_str = int(input("Please enter the year: "))
+        year_str = input("Please enter the year: ")
         print("")
 
     # Process & Output
